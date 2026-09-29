@@ -1,0 +1,32 @@
+{
+	"node": "n8n-nodes-scrapeunblocker-glassdoor-jobs.glassdoorJobsScraper",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": [
+		"Productivity",
+		"Data & Storage"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/ScrapeUnblocker/n8n-nodes-scrapeunblocker-glassdoor-jobs#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/ScrapeUnblocker/n8n-nodes-scrapeunblocker-glassdoor-jobs#readme"
+			}
+		]
+	},
+	"alias": [
+		"glassdoor",
+		"jobs",
+		"job search",
+		"hiring",
+		"recruiting",
+		"salary",
+		"careers",
+		"apify",
+		"scrapeunblocker"
+	]
+}
