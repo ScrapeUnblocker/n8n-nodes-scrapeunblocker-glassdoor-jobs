@@ -55,7 +55,6 @@ The token starts with `apify_api_`. Treat it like a password: anyone who has it 
 
 Already have an **Apify API** credential in n8n (for example from the official Apify node)? This node uses the same credential type, so you can simply select it.
 
-
 ## Operations
 
 Pick a **Resource** and an **Operation**. Each n8n input item starts one Apify run. List fields accept several values separated by commas or new lines, or an array returned by an expression.
@@ -95,7 +94,6 @@ The node can be attached to an n8n **AI Agent** as a tool, so the agent can call
 ## Output
 
 - One item per job, with title, job ID and listing URL, company, company ID and rating, location, posting age in days, salary estimate (min, median, max, pay period, currency and source), skills, a description snippet and easy-apply / sponsored flags.
-
 
 Fields of a returned item: `jobId`, `title`, `url`, `company`, `companyId`, `companyRating`, `companyLogo`, `location`, `locationType`, `countryId`, `ageInDays`, `salary`, `snippet`, `skills`, `easyApply`, `sponsored`, `category`.
 
